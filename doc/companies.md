@@ -1,8 +1,11 @@
 # Companies using babashka
 
 Is your company using babashka? Mention it in
-[this](https://github.com/babashka/babashka/issues/254) issue to get yours
-listed!
+[this](https://github.com/babashka/babashka/discussions/1026) discussion to get
+yours listed!
+
+If your company is using clj-kondo as well, mention it
+[here](https://github.com/clj-kondo/clj-kondo/discussions/1397).
 
 If your company is sponsoring, it will be listed first (in order of sponsorship
 size) with a logo and hiring link (if applicable)!
@@ -36,13 +39,17 @@ Sponsoring via [Cognitect](https://www.cognitect.com/).
 - [AWS](https://aws.amazon.com/)
 - [Barracuda](https://www.barracuda.com/)
 - [Datil](https://datil.com/)
+- [Deon Digital](https://www.deondigital.com/)
+- [Doctor Evidence](https://drevidence.com)
 - [Fluent](https://fluent.to/)
 - [Hi](https://www.hi.group/)
 - [Juxt](https://www.juxt.pro/)
 - [Latacora](https://www.latacora.com/)
 - [Metosin](https://www.metosin.fi/en/)
 - [Nextdoc](https://www.nextdoc.io/)
+- [PractiTest](https://www.practitest.com/)
 - [Reify Health](https://www.reifyhealth.com/)
 - [Splash Financial](https://www.splashfinancial.com/)
 - [TOYOKUMO, Inc.](https://toyokumo.co.jp/)
+- [Xcoo](https://xcoo.com/)
 - [Zero one group](https://zero-one-group.com/)
