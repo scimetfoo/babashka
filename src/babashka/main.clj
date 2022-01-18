@@ -598,10 +598,13 @@ Use bb run --help to show this help output.
           (let [options (next options)]
             (recur (next options)
                    (update opts-map :expressions (fnil conj []) (first options))))
-          ("--main", "-m",)
+          ("--main", "-m")
           (let [options (next options)]
-            (assoc opts-map :main (first options)
-                   :command-line-args (rest options)))
+            (if (not= (first (next options)) "--")
+              (assoc opts-map :main (first options)
+                     :command-line-args (rest options))
+              (recur (next options)
+                     (assoc opts-map :main (first options)))))
           ("--run")
           (parse-run-opts opts-map (next options))
           ("--tasks")

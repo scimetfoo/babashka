@@ -40,6 +40,10 @@
   (is (= {:classpath "src"
           :uberjar "foo.jar"}
          (parse-opts ["--classpath" "src" "uberjar" "foo.jar"])))
+  (is (= {:classpath ".",
+          :main "foo"
+          :command-line-args ["bar" "baz"]}
+         (parse-opts ["-cp" "." "--main" "foo" "--" "bar" "baz"])))
   (is (= {:classpath "src"
           :uberjar "foo.jar"
           :debug true}
